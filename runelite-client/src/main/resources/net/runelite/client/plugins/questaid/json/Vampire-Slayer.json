@@ -1,0 +1,46 @@
+{
+  "name": "Vampire Slayer",
+	"startLocation": "Morgan, Draynor Village",
+  "Requirements": {
+    "Points": "0",
+    "RequiredSkills": [
+
+    ],
+    "Quests": [
+      {
+        "Name": "Garden of Tranquility"
+      }
+    ],
+		"Coins": "2",
+    "Items": [
+      {
+        "Id": "",
+        "Name": "Hammer",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Garlic",
+        "Quantity": "1",
+        "QuestObtainable": "1"
+      }
+    ]
+  },
+  "Rewards": {
+    "Points": "3",
+    "RewardSkills": [
+      {
+        "Skill": "Attack",
+        "Experience": "4825"
+      }
+    ],
+    "Coins": "",
+		"Items": [
+		],
+    "Misc": [
+    ]
+  },
+	"Unlocks": [
+	]
+}

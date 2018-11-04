@@ -1,0 +1,128 @@
+{
+  "name": "Watchtower",
+  "startLocation": "Watchtower Wizard north of Yanille ",
+  "Requirements": {
+    "Points": "0",
+    "RequiredSkills": [
+      {
+        "Skill": "Magic",
+        "Level": "15",
+        "Boostable": "0"
+      },
+      {
+        "Skill": "Thieving",
+        "Level": "15",
+        "Boostable": "0"
+      },
+      {
+        "Skill": "Agility",
+        "Level": "25",
+        "Boostable": "0"
+      },
+      {
+        "Skill": "Herblore",
+        "Level": "14",
+        "Boostable": "0"
+      },
+      {
+        "Skill": "Mining",
+        "Level": "40",
+        "Boostable": "0"
+      }
+    ],
+    "Quests": [],
+		"Coins": "20",
+    "Items": [
+      {
+        "Id": "",
+        "Name": "Tinderbox",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      },
+      {
+        "Id": "",
+        "Name": "Pickaxe",
+        "Quantity": "6",
+        "QuestObtainable": "0"
+      },
+      {
+        "Id": "",
+        "Name": "Dragon Bones",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      },
+      {
+        "Id": "",
+        "Name": "Rope",
+        "Quantity": "2",
+        "QuestObtainable": "0"
+      },
+      {
+        "Id": "",
+        "Name": "Guam Leaf",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      },
+      {
+        "Id": "36",
+        "Name": "A Light scource",
+        "Quantity": "1",
+        "QuestObtainable": "1"
+      },
+      {
+        "Id": "",
+        "Name": "Death Rune",
+        "Quantity": "1",
+        "QuestObtainable": "1"
+      },
+      {
+        "Id": "",
+        "Name": "Vial Of Water",
+        "Quantity": "1",
+        "QuestObtainable": "1"
+      },
+      {
+        "Id": "",
+        "Name": "Pestle and mortar",
+        "Quantity": "1",
+        "QuestObtainable": "1"
+      },
+      {
+        "Id": "",
+        "Name": "Bat Bones",
+        "Quantity": "1",
+        "QuestObtainable": "1"
+      },
+      {
+        "Id": "",
+        "Name": "Jangerberries",
+        "Quantity": "1",
+        "QuestObtainable": "1"
+      }
+
+    ]
+  },
+  "Rewards": {
+    "Points": "4",
+    "RewardSkills": [
+      {
+        "Skill": "Magic",
+        "Experience": "15250"
+      }
+    ],
+    "Coins": "5000",
+    "Items": [
+      {
+        "Id": "8012",
+        "Name": "Watch Tower Teleport Scroll",
+        "Quantity": "1"
+      } 
+    ],
+    "Misc": []
+  },
+  "Unlocks": [
+    {
+      "Description": "Monkey Madness II"
+    }
+  ]
+}

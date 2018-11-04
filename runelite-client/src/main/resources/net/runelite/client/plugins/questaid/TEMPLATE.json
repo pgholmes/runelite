@@ -1,0 +1,55 @@
+{
+  "name": "Swan Song",
+	"startLocation": "The Piscatoris Fishing Colony",
+  "Requirements": {
+    "Points": "100",
+    "RequiredSkills": [
+      {
+        "Skill": "Magic",
+        "Level": "66",
+        "Boostable": "1"
+      }
+    ],
+    "Quests": [
+      {
+        "Name": "Garden of Tranquility"
+      }
+    ],
+		"Coins": "",
+    "Items": [
+      {
+        "Id": "",
+        "Name": "Brown Apron",
+        "Quantity": "1",
+        "QuestObtainable": "1"
+      }
+    ]
+  },
+  "Rewards": {
+    "Points": "2",
+    "RewardSkills": [
+      {
+        "Skill": "Fishing",
+        "Experience": "15000"
+      }
+    ],
+    "Coins": "25000",
+		"Items": [
+			{
+				"Id": "",
+        "Name": "Brown Apron",
+        "Quantity": "1"
+			}
+		],
+    "Misc": [
+      {
+        "Description": "Access to the Piscatoris Fishing Colony"
+      }
+    ]
+  },
+	"Unlocks": [
+		{
+			"Description": "Making Friends with My Arm"
+		}
+	]
+}

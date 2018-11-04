@@ -1,0 +1,36 @@
+{
+  "name": "The Corsair Curse",
+	"startLocation": "Captain Tock at the crossroads north of Port Sarim",
+  "Requirements": {
+    "Points": "0",
+    "RequiredSkills": [],
+    "Quests": [],
+		"Coins": "",
+    "Items": [
+      {
+        "Id": "",
+        "Name": "Spade",
+        "Quantity": "1",
+        "QuestObtainable": "1"
+      },
+			{
+        "Id": "",
+        "Name": "Tinderbox",
+        "Quantity": "1",
+        "QuestObtainable": "1"
+      }
+    ]
+  },
+  "Rewards": {
+    "Points": "2",
+    "RewardSkills": [
+    ],
+    "Coins": "0",
+    "Misc": [
+      {
+        "Description": "Access to Yusuf's bank in the Corsair Cove"
+      }
+    ]
+  },
+	"Unlocks": []
+}

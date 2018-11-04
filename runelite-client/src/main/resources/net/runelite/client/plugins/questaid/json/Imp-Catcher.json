@@ -1,0 +1,59 @@
+{
+  "name": "Imp Catcher",
+	"startLocation": "Wizard Mizgog, Wizard's Tower top floor",
+  "Requirements": {
+    "Points": "0",
+    "RequiredSkills": [
+    ],
+    "Quests": [
+    ],
+		"Coins": "",
+    "Items": [
+      {
+        "Id": "",
+        "Name": "Black Bead",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Yellow Bead",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Red Bead",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "White Bead",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      }
+    ]
+  },
+  "Rewards": {
+    "Points": "1",
+    "RewardSkills": [
+      {
+        "Skill": "Magic",
+        "Experience": "875"
+      }
+    ],
+    "Coins": "",
+		"Items": [
+			{
+				"Id": "",
+        "Name": "Amulet of Accuracy",
+        "Quantity": "1"
+			}
+		],
+    "Misc": [
+]
+  },
+	"Unlocks": [
+	]
+}

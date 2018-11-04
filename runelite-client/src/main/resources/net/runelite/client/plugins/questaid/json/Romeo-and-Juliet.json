@@ -1,0 +1,35 @@
+{
+  "name": "Romeo & Juliet",
+	"startLocation": "Romeo, Varrock Square",
+  "Requirements": {
+    "Points": "0",
+    "RequiredSkills": [
+    ],
+    "Quests": [
+    ],
+		"Coins": "",
+    "Items": [
+      {
+        "Id": "",
+        "Name": "Cadava berries",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      }
+    ]
+  },
+  "Rewards": {
+    "Points": "5",
+    "RewardSkills": [
+    ],
+    "Coins": "",
+		"Items": [
+		],
+    "Misc": [
+    ]
+  },
+	"Unlocks": [
+		{
+			"Description": "Making Friends with My Arm"
+		}
+	]
+}

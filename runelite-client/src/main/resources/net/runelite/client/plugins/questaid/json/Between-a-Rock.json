@@ -1,0 +1,82 @@
+{
+  "name": "Between a Rock...",
+	"startLocation": "The Piscatoris Fishing Colony",
+  "Requirements": {
+    "Points": "0",
+    "RequiredSkills": [
+      {
+        "Skill": "Defence",
+        "Level": "30",
+        "Boostable": "0"
+      },
+			{
+        "Skill": "Mining",
+        "Level": "40",
+        "Boostable": "1"
+      },
+			{
+        "Skill": "Smithing",
+        "Level": "50",
+        "Boostable": "1"
+      }
+    ],
+    "Quests": [
+      {
+        "Name": "Dwarf Cannon"
+      },
+			{
+        "Name": "Fishing Contest"
+      }
+    ],
+		"Coins": "830",
+    "Items": [
+      {
+        "Id": "1267",
+        "Name": "Pickaxe",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Gold bar",
+        "Quantity": "4",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Pickaxe",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      }
+    ]
+  },
+  "Rewards": {
+    "Points": "2",
+    "RewardSkills": [
+      {
+        "Skill": "Defence",
+        "Experience": "5000"
+      },
+			{
+        "Skill": "Mining",
+        "Experience": "5000"
+      },
+			{
+        "Skill": "Smithing",
+        "Experience": "5000"
+      }
+    ],
+    "Coins": "25000",
+		"Items": [
+			{
+				"Id": "",
+        "Name": "Rune pickaxe",
+        "Quantity": "1"
+			}
+		],
+    "Misc": [
+    ]
+  },
+	"Unlocks": [
+	]
+}

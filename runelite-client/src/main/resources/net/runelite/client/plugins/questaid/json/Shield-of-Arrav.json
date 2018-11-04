@@ -1,0 +1,35 @@
+{
+  "name": "Shield of Arrav",
+	"startLocation": "Reldo, Varrock Palace Castle",
+  "Requirements": {
+    "Points": "100",
+    "RequiredSkills": [
+    ],
+    "Quests": [
+    ],
+		"Coins": "20",
+    "Items": [
+      {
+        "Id": "",
+        "Name": "Pheonix Crossbow",
+        "Quantity": "1",
+        "QuestObtainable": "1"
+      }
+    ]
+  },
+  "Rewards": {
+    "Points": "1",
+    "RewardSkills": [
+    ],
+    "Coins": "600",
+		"Items": [
+		],
+    "Misc": [
+    ]
+  },
+	"Unlocks": [
+		{
+			"Description": "Heroes' Quest"
+		}
+	]
+}

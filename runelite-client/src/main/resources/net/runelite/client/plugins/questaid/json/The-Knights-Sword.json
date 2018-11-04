@@ -1,0 +1,53 @@
+{
+  "name": "The Knight's Sword",
+	"startLocation": "Squire in courtyard of White Knight's Castle, Falador.",
+  "Requirements": {
+    "Points": "0",
+    "RequiredSkills": [
+      {
+        "Skill": "Mining",
+        "Level": "10",
+        "Boostable": "1"
+      }
+    ],
+    "Quests": [
+    ],
+		"Coins": "",
+    "Items": [
+      {
+        "Id": "1267",
+        "Name": "Pickaxe",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Iron Bar",
+        "Quantity": "1",
+        "QuestObtainable": "1"
+      },
+			{
+        "Id": "",
+        "Name": "Blurite Ore",
+        "Quantity": "1",
+        "QuestObtainable": "1"
+      }
+    ]
+  },
+  "Rewards": {
+    "Points": "1",
+    "RewardSkills": [
+      {
+        "Skill": "Smithing",
+        "Experience": "12725"
+      }
+    ],
+    "Coins": "",
+		"Items": [
+		],
+    "Misc": [
+    ]
+  },
+	"Unlocks": [
+	]
+}

@@ -1,0 +1,50 @@
+{
+  "name": "The Restless Ghost",
+	"startLocation": "Father Aereck, Chapel South-east Lumbridge Castle",
+  "Requirements": {
+    "Points": "0",
+    "RequiredSkills": [
+    ],
+    "Quests": [
+
+    ],
+		"Coins": "",
+    "Items": [
+
+    ]
+  },
+  "Rewards": {
+    "Points": "1",
+    "RewardSkills": [
+      {
+        "Skill": "Prayer",
+        "Experience": "1125"
+      }
+    ],
+    "Coins": "",
+		"Items": [
+		],
+    "Misc": [
+    ]
+  },
+	"Unlocks": [
+		{
+			"Description": "Animal Magnetism"
+		},
+		{
+			"Description": "Cabin Fever"
+		},
+		{
+			"Description": "Ghosts Ahoy"
+		},
+		{
+			"Description": "Making History"
+		},
+		{
+			"Description": "Nature Spirit"
+		},
+		{
+			"Description": "Creature of Fenkenstrain"
+		}
+	]
+}

@@ -1,0 +1,50 @@
+{
+  "name": "Cook's Assistant",
+	"startLocation": "Cook in the kitchen of Lumbridge Castle",
+  "Requirements": {
+    "Points": "1",
+    "RequiredSkills": [],
+    "Quests": [],
+		"Coins": "",
+    "Items": [
+      {
+        "Id": "",
+        "Name": "Pot",
+        "Quantity": "1",
+        "QuestObtainable": "1"
+      },
+			{
+        "Id": "",
+        "Name": "Bucket",
+        "Quantity": "1",
+        "QuestObtainable": "1"
+      },
+			{
+        "Id": "",
+        "Name": "Egg",
+        "Quantity": "1",
+        "QuestObtainable": "1"
+      }
+    ]
+  },
+  "Rewards": {
+    "Points": "1",
+    "RewardSkills": [
+      {
+        "Skill": "Cooking",
+        "Experience": "300"
+      }
+    ],
+    "Coins": "",
+    "Misc": [
+      {
+        "Description": "Can use Cook-o-matic 100"
+      }
+    ]
+  },
+	"Unlocks": [
+	{
+		"Description": "Recipe for Disaster"
+	}
+	]
+}

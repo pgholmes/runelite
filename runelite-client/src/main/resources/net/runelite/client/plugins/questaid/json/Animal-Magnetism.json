@@ -1,0 +1,138 @@
+{
+  "name": "Animal Magnetism",
+	"startLocation": "Ava, Draynor Manor",
+  "Requirements": {
+    "Points": "0",
+    "RequiredSkills": [
+      {
+        "Skill": "Slayer",
+        "Level": "18",
+        "Boostable": "0"
+      },
+			{
+        "Skill": "Crafting",
+        "Level": "19",
+        "Boostable": "0"
+      },
+			{
+        "Skill": "Ranged",
+        "Level": "30",
+        "Boostable": "0"
+      },
+			{
+        "Skill": "Woodcutting",
+        "Level": "35",
+        "Boostable": "0"
+      },
+			{
+        "Skill": "Prayer",
+        "Level": "31",
+        "Boostable": "0"
+      }
+    ],
+    "Quests": [
+      {
+        "Name": "The Restless Ghost"
+      },
+			{
+        "Name": "Ernest the Chicken"
+      },
+			{
+        "Name": "Priest in Peril"
+      }
+    ],
+		"Coins": "",
+    "Items": [
+      {
+        "Id": "",
+        "Name": "Mithril Axe",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Iron bar",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Bones",
+        "Quantity": "4",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Bucket",
+        "Quantity": "4",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Pot",
+        "Quantity": "4",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Hammer",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Holy symbol",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Polished buttons",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Hard leather",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      }
+    ]
+  },
+  "Rewards": {
+    "Points": "1",
+    "RewardSkills": [
+      {
+        "Skill": "Crafting",
+        "Experience": "1000"
+      },
+			{
+        "Skill": "Fletching",
+        "Experience": "1000"
+      },
+			{
+        "Skill": "Slayer",
+        "Experience": "1000"
+      },
+			{
+        "Skill": "Woodcutting",
+        "Experience": "2500"
+      }
+    ],
+    "Coins": "25000",
+		"Items": [
+			{
+				"Id": "",
+        "Name": "Ava's attractor",
+        "Quantity": "1"
+			}
+		],
+    "Misc": [
+    ]
+  },
+	"Unlocks": [
+		{
+			"Description": "Dragon Slayer II"
+		}
+	]
+}

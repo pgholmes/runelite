@@ -1,0 +1,56 @@
+{
+  "name": "Doric's Quest",
+	"startLocation": "Doric, north of Falador outside east gate of Taverley.",
+  "Requirements": {
+    "Points": "0",
+    "RequiredSkills": [
+      {
+        "Skill": "Mining",
+        "Level": "15",
+        "Boostable": "1"
+      }
+    ],
+    "Quests": [
+    ],
+		"Coins": "",
+    "Items": [
+      {
+        "Id": "",
+        "Name": "Clay",
+        "Quantity": "6",
+        "QuestObtainable": "1"
+      },
+			{
+        "Id": "",
+        "Name": "Copper Ore",
+        "Quantity": "4",
+        "QuestObtainable": "1"
+      },
+			{
+        "Id": "",
+        "Name": "Iron Ore",
+        "Quantity": "2",
+        "QuestObtainable": "1"
+      }
+    ]
+  },
+  "Rewards": {
+    "Points": "1",
+    "RewardSkills": [
+      {
+        "Skill": "Mining",
+        "Experience": "1300"
+      }
+    ],
+    "Coins": "180",
+		"Items": [
+		],
+    "Misc": [
+      {
+        "Description": "Ability to use Doric's anvils"
+      }
+    ]
+  },
+	"Unlocks": [
+	]
+}

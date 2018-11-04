@@ -1,0 +1,127 @@
+{
+  "name": "Big Chompy Bird Hunting",
+	"startLocation": "The Piscatoris Fishing Colony",
+  "Requirements": {
+    "Points": "0",
+    "RequiredSkills": [
+      {
+        "Skill": "Fletching",
+        "Level": "5",
+        "Boostable": "1"
+      },
+			{
+        "Skill": "Cooking",
+        "Level": "30",
+        "Boostable": "1"
+      },
+			{
+        "Skill": "Ranged",
+        "Level": "30",
+        "Boostable": "1"
+      }
+    ],
+    "Quests": [
+    ],
+		"Coins": "",
+    "Items": [
+      {
+        "Id": "1349",
+        "Name": "Axe",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Feather",
+        "Quantity": "100",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Knife",
+        "Quantity": "1",
+        "QuestObtainable": "1"
+      },
+			{
+        "Id": "",
+        "Name": "Chisel",
+        "Quantity": "1",
+        "QuestObtainable": "1"
+      },
+			{
+        "Id": "",
+        "Name": "Wolf bones",
+        "Quantity": "4",
+        "QuestObtainable": "1"
+      },
+			{
+        "Id": "",
+        "Name": "Cabbage",
+        "Quantity": "1",
+        "QuestObtainable": "1"
+      },
+			{
+        "Id": "",
+        "Name": "Tomato",
+        "Quantity": "1",
+        "QuestObtainable": "1"
+      },
+			{
+        "Id": "",
+        "Name": "Onion",
+        "Quantity": "1",
+        "QuestObtainable": "1"
+      },
+			{
+        "Id": "",
+        "Name": "Potato",
+        "Quantity": "1",
+        "QuestObtainable": "1"
+      },
+			{
+        "Id": "",
+        "Name": "Equa leaves",
+        "Quantity": "1",
+        "QuestObtainable": "1"
+      },
+			{
+        "Id": "",
+        "Name": "Doogle leaves",
+        "Quantity": "1",
+        "QuestObtainable": "1"
+      }
+    ]
+  },
+  "Rewards": {
+    "Points": "2",
+    "RewardSkills": [
+      {
+        "Skill": "Fletching",
+        "Experience": "262"
+      },
+			{
+        "Skill": "Cooking",
+        "Experience": "1470"
+      },
+			{
+        "Skill": "Ranged",
+        "Experience": "735"
+      }
+    ],
+    "Coins": "",
+		"Items": [
+			{
+				"Id": "",
+        "Name": "Ogre bow",
+        "Quantity": "1"
+			}
+		],
+    "Misc": [
+      {
+        "Description": "Ability to make Ogre Arrows"
+      }
+    ]
+  },
+	"Unlocks": [
+	]
+}

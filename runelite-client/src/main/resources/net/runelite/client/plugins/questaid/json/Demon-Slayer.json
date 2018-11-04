@@ -1,0 +1,42 @@
+{
+  "name": "Demon Slayer",
+	"startLocation": "Gypsy in Varrock Square",
+  "Requirements": {
+    "Points": "0",
+    "RequiredSkills": [],
+    "Quests": [],
+		"Coins": "100",
+    "Items": [
+      {
+        "Id": "",
+        "Name": "Bucket of Water",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      },
+      {
+        "Id": "",
+        "Name": "Bones",
+        "Quantity": "25",
+        "QuestObtainable": "0"
+      }
+    ]
+  },
+  "Rewards": {
+    "Points": "3",
+    "RewardSkills": [],
+    "Coins": "",
+		"Items": [
+			{
+				"Id": "",
+        "Name": "Silverlight",
+        "Quantity": "1"
+			}
+		],
+    "Misc": []
+  },
+	"Unlocks": [
+		{
+			"Description": "Shadow of the Storm"
+		}
+	]
+}

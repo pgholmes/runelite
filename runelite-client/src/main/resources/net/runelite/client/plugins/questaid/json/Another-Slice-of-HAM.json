@@ -1,0 +1,80 @@
+{
+  "name": "Another Slice of H.A.M",
+	"startLocation": "Ur-tag's house, Dorgesh-Kaan",
+  "Requirements": {
+    "Points": "0",
+    "RequiredSkills": [
+      {
+        "Skill": "Attack",
+        "Level": "15",
+        "Boostable": "0"
+      },
+			{
+        "Skill": "Prayer",
+        "Level": "25",
+        "Boostable": "0"
+      }
+    ],
+    "Quests": [
+      {
+        "Name": "Death to the Dorgeshuun"
+      },
+			{
+        "Name": "The Giant Dwarf"
+      },
+			{
+        "Name": "The Dig Site"
+      },
+			{
+        "Name": "Druidic Ritual"
+      }
+    ],
+		"Coins": "",
+    "Items": [
+      {
+        "Id": "33",
+        "Name": "Any Light Source",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Tinderbox",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      }
+			
+    ]
+  },
+  "Rewards": {
+    "Points": "1",
+    "RewardSkills": [
+      {
+        "Skill": "Mining",
+        "Experience": "3000"
+      },
+			{
+        "Skill": "Prayer",
+        "Experience": "3000"
+      }
+    ],
+    "Coins": "",
+		"Items": [
+			{
+				"Id": "",
+        "Name": "Ancient Mace",
+        "Quantity": "1"
+			}
+		],
+    "Misc": [
+      {
+        "Description": "Can buy Goblin Village teleport orbs"
+      },
+			{
+				"Description": "Access to Dorgesh-Kaan - Keldagrim Train route"
+			}
+    ]
+  },
+	"Unlocks": [
+	]
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Pirates-Treasure",
+	"startLocation": "Northernmost dock at Port Sarim, just south of pub",
+  "Requirements": {
+    "Points": "0",
+    "RequiredSkills": [
+    ],
+    "Quests": [
+    ],
+		"Coins": "60",
+    "Items": [
+      {
+        "Id": "",
+        "Name": "Karamjan rum",
+        "Quantity": "1",
+        "QuestObtainable": "1"
+      },
+			{
+        "Id": "",
+        "Name": "White apron",
+        "Quantity": "1",
+        "QuestObtainable": "1"
+      },
+			{
+        "Id": "",
+        "Name": "banana",
+        "Quantity": "1",
+        "QuestObtainable": "1"
+      },
+			{
+        "Id": "",
+        "Name": "Spade",
+        "Quantity": "1",
+        "QuestObtainable": "1"
+      }
+    ]
+  },
+  "Rewards": {
+    "Points": "2",
+    "RewardSkills": [
+    ],
+    "Coins": "25000",
+		"Items": [
+		],
+    "Misc": [
+      {
+        "Description": "One-Eyed Hector's Treasure Chest"
+      },
+			{
+        "Description": "Karamja pay-fare option"
+      }
+    ]
+  },
+	"Unlocks": [
+		{
+			"Description": "Cabin Fever"
+		}
+	]
+}

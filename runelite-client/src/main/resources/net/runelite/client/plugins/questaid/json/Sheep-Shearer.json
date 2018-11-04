@@ -1,0 +1,36 @@
+{
+  "name": "Sheep Shearer",
+	"startLocation": "The Piscatoris Fishing Colony",
+  "Requirements": {
+    "Points": "0",
+    "RequiredSkills": [
+    ],
+    "Quests": [
+    ],
+		"Coins": "",
+    "Items": [
+      {
+        "Id": "",
+        "Name": "Ball of wool",
+        "Quantity": "20",
+        "QuestObtainable": "1"
+      }
+    ]
+  },
+  "Rewards": {
+    "Points": "1",
+    "RewardSkills": [
+      {
+        "Skill": "Crafting",
+        "Experience": "150"
+      }
+    ],
+    "Coins": "60",
+		"Items": [
+		],
+    "Misc": [
+    ]
+  },
+	"Unlocks": [
+	]
+}

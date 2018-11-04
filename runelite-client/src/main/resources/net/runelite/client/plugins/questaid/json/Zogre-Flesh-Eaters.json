@@ -1,0 +1,82 @@
+{
+  "name": "Zogre Flesh Eaters",
+  "startLocation": "Grish located in Jiggig",
+  "Requirements": {
+    "Points": "0",
+    "RequiredSkills": [
+      {
+        "Skill": "Smithing",
+        "Level": "4",
+        "Boostable": "1"
+      },
+      {
+        "Skill": "Herblore",
+        "Level": "8",
+        "Boostable": "1"
+      },
+      {
+        "Skill": "Ranged",
+        "Level": "30",
+        "Boostable": "1"
+      },
+      {
+        "Skill": "Strength",
+        "Level": "10",
+        "Boostable": "1"
+      }
+    ],
+    "Quests": [
+      {
+        "Name": "Big Chompy Bird Hunting"
+      },
+      {
+        "Name": "Jungle Potion"
+      },
+      {
+        "Name": "Druidic Ritual"
+      }
+    ],
+		"Coins": "",
+    "Items": [
+      {
+        "Id": "",
+        "Name": "Knife",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      }
+    ]
+  },
+  "Rewards": {
+    "Points": "1",
+    "RewardSkills": [
+      {
+        "Skill": "Fletching",
+        "Experience": "2000"
+      },
+      {
+        "Skill": "Ranged",
+        "Experience": "2000"
+      },
+      {
+        "Skill": "Herblore",
+        "Experience": "2000"
+      }
+    ],
+    "Coins": "",
+    "Items": [],
+      "Misc": 
+      [
+        {
+          "Description": "Can make Brutal Arrows"
+        },
+        {
+          "Description": "Can cure disease potions"
+        }
+      ]
+  },
+  "Unlocks": [
+    {
+      "Description": "Rum Deal"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "name": "Sea Slug",
+	"startLocation": "Caroline east of Ardougne, north of Witchaven",
+  "Requirements": {
+    "Points": "0",
+    "RequiredSkills": [
+      {
+        "Skill": "Firemaking",
+        "Level": "30",
+        "Boostable": "0"
+      }
+    ],
+    "Quests": [],
+		"Coins": "",
+    "Items": [
+      {
+        "Id": "",
+        "Name": "Swamp Paste",
+        "Quantity": "10",
+        "QuestObtainable": "0"
+      }
+    ]
+  },
+  "Rewards": {
+    "Points": "1",
+    "RewardSkills": [
+      {
+        "Skill": "Fishing",
+        "Experience": "7175"
+      }
+    ],
+    "Coins": "0",
+    "Misc": [
+      {
+        "Description": "Access to the Fishing Platform"
+      },
+			{
+				"Description": "Oyster pearls"
+			}
+    ]
+	},
+	"Unlocks": []
+}

@@ -1,0 +1,45 @@
+{
+  "name": "Witch's House",
+  "startLocation": "boy near the gate entrance of Taverley.",
+  "Requirements": {
+    "Points": "0",
+    "RequiredSkills": [],
+    "Quests": [],
+		"Coins": "",
+    "Items": [
+      {
+        "Id": "",
+        "Name": "Cheese",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      },
+      {
+        "Id": "",
+        "Name": "Leather gloves",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      }
+    ]
+  },
+  "Rewards": {
+    "Points": "4",
+    "RewardSkills": [
+      {
+        "Skill": "Hitpoints",
+        "Experience": "6325"
+      }
+    ],
+    "Coins": "",
+    "Items": [],
+      "Misc": 
+      []
+  },
+  "Unlocks": [
+    {
+      "Description": "Recipe for Disaster"
+    },
+    {
+      "Description": "Grim Tales"
+    }
+  ]
+}

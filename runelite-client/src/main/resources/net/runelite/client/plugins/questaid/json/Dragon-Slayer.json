@@ -1,0 +1,97 @@
+{
+  "name": "Dragon Slayer",
+	"startLocation": "Guildmaster in Champion's Guild",
+  "Requirements": {
+    "Points": "32",
+    "RequiredSkills": [
+      {
+        "Skill": "Crafting",
+        "Level": "8",
+        "Boostable": "0"
+      },
+			{
+        "Skill": "Smithing",
+        "Level": "34",
+        "Boostable": "0"
+      }
+    ],
+    "Quests": [],
+		"Coins": "10000",
+    "Items": [
+      {
+        "Id": "",
+        "Name": "Hammer",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Plank",
+        "Quantity": "3",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Steel Nails",
+        "Quantity": "90",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Unfired Bowl",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Wizard's Mind Bomb",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Lobster Pot",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Silk",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Anti-Dragon Shield",
+        "Quantity": "1",
+        "QuestObtainable": "1"
+      }
+    ]
+  },
+  "Rewards": {
+    "Points": "2",
+    "RewardSkills": [
+      {
+        "Skill": "Strength",
+        "Experience": "18650"
+      },
+			{
+        "Skill": "Defence",
+        "Experience": "18650"
+      }
+    ],
+    "Coins": "",
+		"Items": [
+		],
+    "Misc": [
+      {
+        "Description": "Equip Rune Platebodies"
+      },
+			{
+        "Description": "Equip Dragon Platebodies"
+      }
+    ]
+  },
+	"Unlocks": [
+	]
+}

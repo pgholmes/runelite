@@ -1,0 +1,90 @@
+{
+  "name": "Prince Ali Rescue",
+	"startLocation": "Hassan, Al Kharid Palace",
+  "Requirements": {
+    "Points": "100",
+    "RequiredSkills": [
+    ],
+		"Coins": "100",
+    "Items": [
+      {
+        "Id": "",
+        "Name": "Soft Clay",
+        "Quantity": "3",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Ball of wool",
+        "Quantity": "3",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "RedBerries",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Ashes",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Bucket of water",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Pot of flour",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Bronze Bar",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Pink Skirt",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Beers",
+        "Quantity": "3",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Rope",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      }
+    ]
+  },
+  "Rewards": {
+    "Points": "3",
+    "RewardSkills": [
+    ],
+    "Coins": "700",
+		"Items": [
+		],
+    "Misc": [
+      {
+        "Description": "Lumbridge - Al Kharid toll gate free"
+      }
+    ]
+  },
+	"Unlocks": [
+		{
+			"Description": "Contact!"
+		}
+	]
+}

@@ -1,0 +1,56 @@
+{
+  "name": "Goblin Diplomacy",
+	"startLocation": "General Bentnoze or General Wartface in Goblin Village",
+  "Requirements": {
+    "Points": "0",
+    "RequiredSkills": [],
+    "Quests": [],
+		"Coins": "35",
+    "Items": [
+      {
+        "Id": "",
+        "Name": "Goblin Mail",
+        "Quantity": "3",
+        "QuestObtainable": "1"
+      },
+			{
+        "Id": "",
+        "Name": "Blue dye",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Orange Dye",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      }
+    ]
+  },
+  "Rewards": {
+    "Points": "5",
+    "RewardSkills": [
+      {
+        "Skill": "Crafting",
+        "Experience": "200"
+      }
+    ],
+    "Coins": "",
+		"Items": [
+			{
+				"Id": "",
+        "Name": "Gold Bar",
+        "Quantity": "1"
+			}
+		],
+    "Misc": []
+  },
+	"Unlocks": [
+		{
+			"Description": "The Lost Tribe"
+		},
+		{
+			"Description": "Recipe for Disaster"
+		}
+	]
+}

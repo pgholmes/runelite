@@ -1,0 +1,56 @@
+{
+  "name": "Misthalin Mystery",
+	"startLocation": "Abigale, Lumbridge Swamp near fishing spots",
+  "Requirements": {
+    "Points": "0",
+    "RequiredSkills": [
+    ],
+    "Quests": [],
+		"Coins": "",
+    "Items": [
+      {
+        "Id": "",
+        "Name": "Bucket",
+        "Quantity": "1",
+        "QuestObtainable": "1"
+      },
+			{
+        "Id": "",
+        "Name": "Tinderbox",
+        "Quantity": "1",
+        "QuestObtainable": "1"
+      }
+    ]
+  },
+  "Rewards": {
+    "Points": "1",
+    "RewardSkills": [
+      {
+        "Skill": "Crafting",
+        "Experience": "600"
+      }
+    ],
+    "Coins": "",
+		"Items": [
+			{
+				"Id": "",
+        "Name": "Uncut ruby",
+        "Quantity": "1"
+			},
+			{
+				"Id": "",
+        "Name": "Uncut emerald",
+        "Quantity": "1"
+			},
+			{
+				"Id": "",
+        "Name": "Uncut sapphire",
+        "Quantity": "1"
+			}
+		],
+    "Misc": [
+    ]
+  },
+	"Unlocks": [
+	]
+}

@@ -1,0 +1,70 @@
+{
+  "name": "Waterfall Quest",
+  "startLocation": "Almera northeast of the Baxtorian Falls.",
+  "Requirements": {
+    "Points": "0",
+    "RequiredSkills": [],
+    "Quests": [],
+		"Coins": "",
+    "Items": [
+      {
+        "Id": "",
+        "Name": "Air Rune",
+        "Quantity": "6",
+        "QuestObtainable": "0"
+      },
+      {
+        "Id": "",
+        "Name": "Earth Rune",
+        "Quantity": "6",
+        "QuestObtainable": "0"
+      },
+      {
+        "Id": "",
+        "Name": "Water Rune",
+        "Quantity": "6",
+        "QuestObtainable": "0"
+      },
+      {
+        "Id": "",
+        "Name": "Rope",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      }
+    ]
+  },
+  "Rewards": {
+    "Points": "1",
+    "RewardSkills": [
+      {
+        "Skill": "Attack",
+        "Experience": "13750"
+      },
+      {
+        "Skill": "Strength",
+        "Experience": "13750"
+      }
+    ],
+    "Coins": "0",
+    "Items": [
+      {
+        "Id": "",
+        "Name": "Diamond",
+        "Quantity": "2"
+      },
+      {
+        "Id": "",
+        "Name": "Gold bar",
+        "Quantity": "2"
+      },
+      {
+        "Id": "",
+        "Name": "Mithril seeds",
+        "Quantity": "40"
+      }
+    ],
+      "Misc": 
+      []
+  },
+  "Unlocks": []
+}

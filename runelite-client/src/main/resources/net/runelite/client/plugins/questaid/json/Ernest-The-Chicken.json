@@ -1,0 +1,46 @@
+{
+  "name": "Ernest The Chicken",
+	"startLocation": "Veronica south of Draynor Manor",
+  "Requirements": {
+    "Points": "0",
+    "RequiredSkills": [
+    ],
+    "Quests": [
+ 
+    ],
+		"Coins": "",
+    "Items": [
+      {
+        "Id": "",
+        "Name": "Spade",
+        "Quantity": "1",
+        "QuestObtainable": "1"
+      },
+			{
+        "Id": "",
+        "Name": "Fish Food",
+        "Quantity": "1",
+        "QuestObtainable": "1"
+      },
+			{
+        "Id": "",
+        "Name": "Poison",
+        "Quantity": "1",
+        "QuestObtainable": "1"
+      }
+    ]
+  },
+  "Rewards": {
+    "Points": "4",
+    "RewardSkills": [
+    ],
+    "Coins": "300",
+		"Items": [],
+    "Misc": []
+  },
+	"Unlocks": [
+		{
+			"Description": "Animal Magnetism"
+		}
+	]
+}

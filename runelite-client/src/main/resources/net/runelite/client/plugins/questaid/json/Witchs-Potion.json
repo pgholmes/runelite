@@ -1,0 +1,54 @@
+{
+  "name": "Watch's Potion",
+	"startLocation": "The Piscatoris Fishing Colony",
+  "Requirements": {
+    "Points": "0",
+    "RequiredSkills": [
+    ],
+    "Quests": [
+    ],
+		"Coins": "",
+    "Items": [
+      {
+        "Id": "",
+        "Name": "Burnt meat",
+        "Quantity": "1",
+        "QuestObtainable": "1"
+      },
+			{
+        "Id": "",
+        "Name": "Eye of Newt",
+        "Quantity": "1",
+        "QuestObtainable": "1"
+      },
+			{
+        "Id": "",
+        "Name": "Onion",
+        "Quantity": "1",
+        "QuestObtainable": "1"
+      },
+			{
+        "Id": "",
+        "Name": "Rat's Tail",
+        "Quantity": "1",
+        "QuestObtainable": "1"
+      }
+    ]
+  },
+  "Rewards": {
+    "Points": "1",
+    "RewardSkills": [
+      {
+        "Skill": "Magic",
+        "Experience": "325"
+      }
+    ],
+    "Coins": "",
+		"Items": [
+		],
+    "Misc": [
+    ]
+  },
+	"Unlocks": [
+	]
+}

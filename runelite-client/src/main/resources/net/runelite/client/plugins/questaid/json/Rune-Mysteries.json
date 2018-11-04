@@ -1,0 +1,34 @@
+{
+  "name": "Rune Mysteries",
+	"startLocation": "Duke Horacio, Lumbridge Castle",
+  "Requirements": {
+    "Points": "0",
+    "RequiredSkills": [
+    ],
+    "Quests": [
+    ],
+		"Coins": "",
+    "Items": [
+    ]
+  },
+  "Rewards": {
+    "Points": "1",
+    "RewardSkills": [
+    ],
+    "Coins": "",
+		"Items": [
+			{
+				"Id": "",
+        "Name": "Air Talisman",
+        "Quantity": "1"
+			}
+		],
+    "Misc": [
+    ]
+  },
+	"Unlocks": [
+		{
+			"Description": "Runecrafting Skill"
+		}
+	]
+}

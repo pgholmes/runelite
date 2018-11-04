@@ -1,0 +1,44 @@
+{
+  "name": "Black Knight's Fortress",
+	"startLocation": "Sir Amik Varze in White Knight Castle Falador",
+  "Requirements": {
+    "Points": "12",
+    "RequiredSkills": [],
+    "Quests": [],
+		"Coins": "",
+    "Items": [
+      {
+        "Id": "",
+        "Name": "Cabbage",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Iron chainbody",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Bronze med helm",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      }
+    ]
+  },
+  "Rewards": {
+    "Points": "3",
+    "RewardSkills": [],
+    "Coins": "2500",
+    "Misc": []
+  },
+	"Unlocks": [
+	{
+		"Description": "Recruitment Drive"
+	},
+	{
+		"Description": "King's Ransom"
+	}
+	]
+}
