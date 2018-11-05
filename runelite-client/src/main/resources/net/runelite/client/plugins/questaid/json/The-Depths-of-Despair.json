@@ -1,0 +1,55 @@
+{
+  "name": "The-Depths-of-Despair",
+	"startLocation": "Lord Kandur Hosidius, Hosidius House",
+  "Requirements": {
+    "Points": "0",
+    "RequiredSkills": [
+      {
+        "Skill": "Agility",
+        "Level": "18",
+        "Boostable": "0"
+      }
+    ],
+    "Quests": [
+      {
+        "Name": "Client of Kourend"
+      }
+    ],
+		"Coins": "",
+    "Items": [
+      {
+        "Id": "",
+        "Name": "20% Hosidius House Favour",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      }
+    ]
+  },
+  "Rewards": {
+    "Points": "1",
+    "RewardSkills": [
+      {
+        "Skill": "Agility",
+        "Experience": "1500"
+      }
+    ],
+    "Coins": "4000",
+		"Items": [
+			{
+				"Id": "",
+        "Name": "Favour Certificate",
+        "Quantity": "1"
+			}
+		],
+    "Misc": [
+      {
+        "Description": "A Memoir Page"
+      }
+    ]
+  },
+	"Unlocks": [
+		{
+			"Description": "Making Friends with My Arm"
+		}
+	]
+}

@@ -1,0 +1,74 @@
+{
+  "name": "Death Plateau",
+	"startLocation": "The Piscatoris Fishing Colony",
+  "Requirements": {
+    "Points": "0",
+    "RequiredSkills": [
+    ],
+    "Quests": [
+      {
+        "Name": "Garden of Tranquility"
+      }
+    ],
+		"Coins": "560",
+    "Items": [
+      {
+        "Id": "",
+        "Name": "Bread",
+        "Quantity": "10",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Trout",
+        "Quantity": "10",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Iron bar",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Asgarnian Ale",
+        "Quantity": "1",
+        "QuestObtainable": "1"
+      }
+    ]
+  },
+  "Rewards": {
+    "Points": "1",
+    "RewardSkills": [
+      {
+        "Skill": "Attack",
+        "Experience": "3000"
+      }
+    ],
+    "Coins": "",
+		"Items": [
+			{
+				"Id": "",
+        "Name": "Steel claws",
+        "Quantity": "1"
+			}
+		],
+    "Misc": [
+      {
+        "Description": "Ability to make claws"
+      },
+			{
+        "Description": "Can purchase and wear climbing boots from Tenzing"
+      }
+    ]
+  },
+	"Unlocks": [
+		{
+			"Description": "Troll Stronghold"
+		},
+		{
+			"Description": "Troll Romance"
+		}
+	]
+}

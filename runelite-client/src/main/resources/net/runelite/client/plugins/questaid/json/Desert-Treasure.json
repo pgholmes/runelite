@@ -1,0 +1,167 @@
+{
+  "name": "Desert Treasure",
+	"startLocation": "The Piscatoris Fishing Colony",
+  "Requirements": {
+    "Points": "0",
+    "RequiredSkills": [
+      {
+        "Skill": "Thieving",
+        "Level": "53",
+        "Boostable": "0"
+      },
+			{
+        "Skill": "Firemaking",
+        "Level": "50",
+        "Boostable": "1"
+      },
+			{
+        "Skill": "Slayer",
+        "Level": "10",
+        "Boostable": "1"
+      },
+			{
+        "Skill": "Magic",
+        "Level": "50",
+        "Boostable": "0"
+      }
+    ],
+    "Quests": [
+      {
+        "Name": "The Dig Site"
+      },
+			{
+        "Name": "Temple of Ikov"
+      },
+			{
+        "Name": "The Tourist Trap"
+      },
+			{
+        "Name": "Troll Stronghold"
+      },
+			{
+        "Name": "Priest in Peril"
+      },
+			{
+        "Name": "Waterfall Quest"
+      }
+    ],
+		"Coins": "650",
+    "Items": [
+      {
+        "Id": "",
+        "Name": "Magic logs",
+        "Quantity": "12",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Steel bar",
+        "Quantity": "6",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Molten glass",
+        "Quantity": "6",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Ashes",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Charcoal",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Blood rune",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Bones",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Spiked boots",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Climbing boots",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Garlic",
+        "Quantity": "1",
+        "QuestObtainable": "1"
+      },
+			{
+        "Id": "",
+        "Name": "Lockpick",
+        "Quantity": "50",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Silver bar",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Spice",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Pestle and Mortar",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Facemask",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Tinderbox",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      }
+    ]
+  },
+  "Rewards": {
+    "Points": "3",
+    "RewardSkills": [
+      {
+        "Skill": "Magic",
+        "Experience": "20000"
+      }
+    ],
+    "Coins": "",
+		"Items": [
+		],
+    "Misc": [
+      {
+        "Description": "Ancient Magicks"
+      }
+    ]
+  },
+	"Unlocks": [
+	]
+}

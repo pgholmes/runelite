@@ -1,0 +1,89 @@
+{
+  "name": "Death To The Dorgeshuun",
+	"startLocation": "Mistag, Lumbridge Caves beneath the castle",
+  "Requirements": {
+    "Points": "0",
+    "RequiredSkills": [
+      {
+        "Skill": "Agility",
+        "Level": "23",
+        "Boostable": "0"
+      },
+			{
+        "Skill": "Thieving",
+        "Level": "23",
+        "Boostable": "0"
+      }
+    ],
+    "Quests": [
+      {
+        "Name": "The Lost Tribe"
+      }
+    ],
+		"Coins": "",
+    "Items": [
+      {
+        "Id": "4306",
+        "Name": "Full H.A.M Outfit",
+        "Quantity": "2",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Any Light Source",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "1267",
+        "Name": "Pickaxe",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Tinderbox",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Rope",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      }
+    ]
+  },
+  "Rewards": {
+    "Points": "1",
+    "RewardSkills": [
+      {
+        "Skill": "Thieving",
+        "Experience": "2000"
+      },
+			{
+        "Skill": "Ranged",
+        "Experience": "2000"
+      }
+    ],
+    "Coins": "",
+		"Items": [
+		],
+    "Misc": [
+      {
+        "Description": "Dogreshuun special attacks"
+      },
+			{
+        "Description": "Entry to H.A.M store rooms"
+      },
+			{
+        "Description": "Entry to Dorgesh-kaan"
+      }
+    ]
+  },
+	"Unlocks": [
+		{
+			"Description": "Another slice of H.A.M"
+		}
+	]
+}

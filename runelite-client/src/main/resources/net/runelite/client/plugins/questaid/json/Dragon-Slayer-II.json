@@ -1,0 +1,229 @@
+{
+  "name": "Dragon Slayer II",
+	"startLocation": "Alec Kincade, outside Myths' Guild",
+  "Requirements": {
+    "Points": "200",
+    "RequiredSkills": [
+      {
+        "Skill": "Magic",
+        "Level": "75",
+        "Boostable": "0"
+      },
+			{
+        "Skill": "Smithing",
+        "Level": "70",
+        "Boostable": "0"
+      },
+			{
+        "Skill": "Mining",
+        "Level": "68",
+        "Boostable": "0"
+      },
+			{
+        "Skill": "Crafting",
+        "Level": "62",
+        "Boostable": "0"
+      },
+			{
+        "Skill": "Agility",
+        "Level": "60",
+        "Boostable": "0"
+      },
+			{
+        "Skill": "Thieving",
+        "Level": "60",
+        "Boostable": "0"
+      },
+			{
+        "Skill": "Construction",
+        "Level": "50",
+        "Boostable": "0"
+      },
+			{
+        "Skill": "Hitpoints",
+        "Level": "50",
+        "Boostable": "0"
+      }
+    ],
+    "Quests": [
+      {
+        "Name": "Legends' Quest"
+      },
+			{
+        "Name": "Dream Mentor"
+      },
+			{
+        "Name": "A Tail of Two Cats"
+      },
+			{
+        "Name": "Animal Magnetism"
+      },
+			{
+        "Name": "Ghosts Ahoy"
+      },
+			{
+        "Name": "Bone Voyage"
+      },
+			{
+        "Name": "Client of Kourend"
+      }
+    ],
+		"Coins": "",
+    "Items": [
+      {
+				"Id": "1267",
+        "Name": "Any Pickaxe",
+        "Quantity": "1",
+				"QuestObtainable": "0"
+			},
+			{
+				"Id": "1349",
+        "Name": "Any Axe",
+        "Quantity": "1",
+				"QuestObtainable": "0"
+			},
+			{
+				"Id": "",
+        "Name": "Oak Plank",
+        "Quantity": "1",
+				"QuestObtainable": "0"
+			},
+			{
+				"Id": "",
+        "Name": "Swamp Paste",
+        "Quantity": "10",
+				"QuestObtainable": "0"
+			},
+			{
+				"Id": "4820",
+        "Name": "Nails",
+        "Quantity": "12",
+				"QuestObtainable": "0"
+			},
+			{
+				"Id": "",
+        "Name": "Hammer",
+        "Quantity": "1",
+				"QuestObtainable": "0"
+			},
+			{
+				"Id": "",
+        "Name": "Machete",
+        "Quantity": "1",
+				"QuestObtainable": "0"
+			},
+			{
+				"Id": "",
+        "Name": "Saw",
+        "Quantity": "1",
+				"QuestObtainable": "0"
+			},
+			{
+				"Id": "",
+        "Name": "Catspeak amulet",
+        "Quantity": "1",
+				"QuestObtainable": "0"
+			},
+			{
+				"Id": "",
+        "Name": "Ghostspeak amulet",
+        "Quantity": "1",
+				"QuestObtainable": "0"
+			},
+			{
+				"Id": "",
+        "Name": "Goutweed",
+        "Quantity": "1",
+				"QuestObtainable": "0"
+			},
+			{
+				"Id": "",
+        "Name": "Dragonstone",
+        "Quantity": "1",
+				"QuestObtainable": "0"
+			},
+			{
+				"Id": "",
+        "Name": "Molten glass",
+        "Quantity": "2",
+				"QuestObtainable": "0"
+			},
+			{
+				"Id": "",
+        "Name": "Glassblowing pipe",
+        "Quantity": "1",
+				"QuestObtainable": "0"
+			},
+			{
+				"Id": "",
+        "Name": "Spade",
+        "Quantity": "1",
+				"QuestObtainable": "0"
+			},
+			{
+				"Id": "",
+        "Name": "Astral Rune",
+        "Quantity": "1",
+				"QuestObtainable": "0"
+			},
+			{
+				"Id": "",
+        "Name": "Seal of passage",
+        "Quantity": "1",
+				"QuestObtainable": "0"
+			},
+			{
+				"Id": "",
+        "Name": "Tinderbox",
+        "Quantity": "1",
+				"QuestObtainable": "0"
+			},
+			{
+				"Id": "",
+        "Name": "Pestle and Mortar",
+        "Quantity": "1",
+				"QuestObtainable": "0"
+			},
+			{
+				"Id": "554",
+        "Name": "Fire Wave spell x3",
+        "Quantity": "1",
+				"QuestObtainable": "0"
+			}
+    ]
+  },
+  "Rewards": {
+    "Points": "5",
+    "RewardSkills": [
+      {
+        "Skill": "Smithing",
+        "Experience": "25000"
+      },
+			{
+        "Skill": "Mining",
+        "Experience": "18000"
+      },
+			{
+        "Skill": "Agility",
+        "Experience": "15000"
+      },
+			{
+        "Skill": "Thieving",
+        "Experience": "15000"
+      }
+    ],
+    "Coins": "",
+		"Items": [
+		],
+    "Misc": [
+      {
+        "Description": "Access to the Myths' Guild"
+      }
+    ]
+  },
+	"Unlocks": [
+		{
+			"Description": "Making Friends with My Arm"
+		}
+	]
+}

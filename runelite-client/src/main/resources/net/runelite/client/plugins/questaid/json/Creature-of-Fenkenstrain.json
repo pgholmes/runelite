@@ -2,7 +2,7 @@
   "name": "Creature of Fenkenstrain",
 	"startLocation": "Sign in middle of Canifis",
   "Requirements": {
-    "Points": "",
+    "Points": "0",
     "RequiredSkills": [
       {
         "Skill": "Crafting",

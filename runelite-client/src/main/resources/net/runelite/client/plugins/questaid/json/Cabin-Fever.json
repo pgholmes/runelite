@@ -35,12 +35,6 @@
     ],
 		"Coins": "",
     "Items": [
-      {
-        "Id": "",
-        "Name": "Brown Apron",
-        "Quantity": "1",
-        "QuestObtainable": "1"
-      }
     ]
   },
   "Rewards": {
@@ -60,7 +54,6 @@
       }
     ],
     "Coins": "",
-		],
     "Misc": [
 			{
         "Description": "Upon completion, talk to Bill Teach for 10000 coins"

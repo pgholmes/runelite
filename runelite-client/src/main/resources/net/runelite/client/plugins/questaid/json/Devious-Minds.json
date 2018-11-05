@@ -1,0 +1,86 @@
+{
+  "name": "Devious Minds",
+	"startLocation": "Monk, Paterdomus next to the temple on River Salve",
+  "Requirements": {
+    "Points": "0",
+    "RequiredSkills": [
+      {
+        "Skill": "Smithing",
+        "Level": "65",
+        "Boostable": "1"
+      },
+			{
+        "Skill": "Runecraft",
+        "Level": "50",
+        "Boostable": "0"
+      },
+			{
+        "Skill": "Fletching",
+        "Level": "50",
+        "Boostable": "0"
+      }
+    ],
+    "Quests": [
+      {
+        "Name": "Wanted!"
+      },
+			{
+        "Name": "Troll Stronghold"
+      },
+			{
+        "Name": "Doric's Quest"
+      },
+			{
+        "Name": "Enter the Abyss"
+      },
+			{
+        "Name": "Recruitment Drive"
+      }
+    ],
+		"Coins": "",
+    "Items": [
+      {
+        "Id": "",
+        "Name": "Mithril 2h Sword",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Bow string",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "5512",
+        "Name": "Large pouch (non-degraded)",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      }
+    ]
+  },
+  "Rewards": {
+    "Points": "1",
+    "RewardSkills": [
+      {
+        "Skill": "Fletching",
+        "Experience": "5000"
+      },
+			{
+        "Skill": "Runecraft",
+        "Experience": "5000"
+      },
+			{
+        "Skill": "Smithing",
+        "Experience": "6500"
+      }
+    ],
+    "Coins": "",
+		"Items": [
+		],
+    "Misc": [
+    ]
+  },
+	"Unlocks": [
+	]
+}

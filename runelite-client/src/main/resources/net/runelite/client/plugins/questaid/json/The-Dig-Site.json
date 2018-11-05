@@ -1,0 +1,144 @@
+{
+  "name": "The Dig Site",
+	"startLocation": "Examiner, in Exam Centre south of the digsite",
+  "Requirements": {
+    "Points": "0",
+    "RequiredSkills": [
+      {
+        "Skill": "Agility",
+        "Level": "10",
+        "Boostable": "0"
+      },
+			{
+        "Skill": "Herblore",
+        "Level": "10",
+        "Boostable": "0"
+      },
+			{
+        "Skill": "Thieving",
+        "Level": "25",
+        "Boostable": "0"
+      }
+    ],
+    "Quests": [
+      {
+        "Name": "Druidic Ritual"
+      }
+    ],
+		"Coins": "",
+    "Items": [
+      {
+        "Id": "",
+        "Name": "Pestle and Mortar",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Vial",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Tinderbox",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Cup of tea",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Rope",
+        "Quantity": "2",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Opal",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Charcoal",
+        "Quantity": "1",
+        "QuestObtainable": "1"
+      },
+			{
+        "Id": "",
+        "Name": "Specimen brush",
+        "Quantity": "1",
+        "QuestObtainable": "1"
+      },
+			{
+        "Id": "",
+        "Name": "Specimen jar",
+        "Quantity": "1",
+        "QuestObtainable": "1"
+      },
+			{
+        "Id": "",
+        "Name": "Panning tray",
+        "Quantity": "1",
+        "QuestObtainable": "1"
+      },
+			{
+        "Id": "",
+        "Name": "Trowel",
+        "Quantity": "1",
+        "QuestObtainable": "1"
+      },
+			{
+        "Id": "",
+        "Name": "Leather boots",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Leather gloves",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      }
+    ]
+  },
+  "Rewards": {
+    "Points": "2",
+    "RewardSkills": [
+      {
+        "Skill": "Mining",
+        "Experience": "15300"
+      },
+			{
+        "Skill": "Herblore",
+        "Experience": "2000"
+      }
+    ],
+    "Coins": "",
+		"Items": [
+			{
+				"Id": "",
+        "Name": "Gold bar",
+        "Quantity": "2"
+			}
+		],
+    "Misc": [
+    ]
+  },
+	"Unlocks": [
+		{
+			"Description": "Another Slice of H.A.M"
+		},
+		{
+			"Description": "Desert Treasure"
+		},
+		{
+			"Description": "Bone Voyage"
+		}
+	]
+}
