@@ -1,0 +1,110 @@
+{
+  "name": "Dream Mentor",
+	"startLocation": "The Piscatoris Fishing Colony",
+  "Requirements": {
+    "Points": "0",
+    "RequiredSkills": [
+      {
+        "Skill": "Overall",
+        "Level": "85",
+        "Boostable": "0"
+      }
+    ],
+    "Quests": [
+      {
+        "Name": "Lunar Diplomacy"
+      },
+			{
+        "Name": "Eadgar's Ruse"
+      }
+    ],
+		"Coins": "",
+    "Items": [
+      {
+        "Id": "",
+        "Name": "Seal of Passage",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Goutweed",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Astral rune",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Tinderbox",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Hammer",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Pestle and Mortar",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Any Food",
+        "Quantity": "6",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Food not above",
+        "Quantity": "7",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Food not above",
+        "Quantity": "7",
+        "QuestObtainable": "0"
+      }
+    ]
+  },
+  "Rewards": {
+    "Points": "2",
+    "RewardSkills": [
+      {
+        "Skill": "Hitpoints",
+        "Experience": "15000"
+      },
+			{
+        "Skill": "Magic",
+        "Experience": "10000"
+      }
+    ],
+    "Coins": "",
+		"Items": [
+			{
+				"Id": "",
+        "Name": "Experience Lamp",
+        "Quantity": "1"
+			}
+		],
+    "Misc": [
+      {
+        "Description": "x7 new lunar spells"
+      }
+    ]
+  },
+	"Unlocks": [
+		{
+			"Description": "Dragon Slayer II"
+		}
+	]
+}

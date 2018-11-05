@@ -1,0 +1,94 @@
+{
+  "name": "Elemental Workshop II",
+	"startLocation": "Read a 'Beaten Book' in Exam Centre library",
+  "Requirements": {
+    "Points": "0",
+    "RequiredSkills": [
+      {
+        "Skill": "Magic",
+        "Level": "20",
+        "Boostable": "0"
+      },
+			{
+        "Skill": "Smithing",
+        "Level": "30",
+        "Boostable": "0"
+      }
+    ],
+    "Quests": [
+      {
+        "Name": "Elemental Workshop I"
+      }
+    ],
+		"Coins": "",
+    "Items": [
+      {
+        "Id": "1267",
+        "Name": "Any Pickaxe",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Hammer",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Elemental metal",
+        "Quantity": "3",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Coal",
+        "Quantity": "12",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Battered key",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Slashed book",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      }
+    ]
+  },
+  "Rewards": {
+    "Points": "1",
+    "RewardSkills": [
+      {
+        "Skill": "Smithing",
+        "Experience": "7500"
+      },
+			{
+        "Skill": "Crafting",
+        "Experience": "7500"
+      }
+    ],
+    "Coins": "",
+		"Items": [
+			{
+				"Id": "",
+        "Name": "Brown Apron",
+        "Quantity": "1"
+			}
+		],
+    "Misc": [
+      {
+        "Description": "Make elemental mind equipment"
+      },
+			      {
+        "Description": "Equip elemental mind equipment"
+      }
+    ]
+  },
+	"Unlocks": [
+	]
+}

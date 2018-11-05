@@ -1,0 +1,59 @@
+{
+  "name": "Eagle's Peak",
+	"startLocation": "Charlie, Ardougne Zoo",
+  "Requirements": {
+    "Points": "0",
+    "RequiredSkills": [
+      {
+        "Skill": "Hunter",
+        "Level": "27",
+        "Boostable": "1"
+      }
+    ],
+    "Quests": [
+    ],
+		"Coins": "50",
+    "Items": [
+      {
+        "Id": "",
+        "Name": "Eagle feather",
+        "Quantity": "10",
+        "QuestObtainable": "1"
+      },
+			{
+        "Id": "",
+        "Name": "Yellow Dye",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Swamp tar",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      }
+    ]
+  },
+  "Rewards": {
+    "Points": "2",
+    "RewardSkills": [
+      {
+        "Skill": "Hunter",
+        "Experience": "2000"
+      }
+    ],
+    "Coins": "",
+		"Items": [
+		],
+    "Misc": [
+      {
+        "Description": "Ability to capture ferrets"
+      },
+			      {
+        "Description": "Access to Eagle transport system"
+      }
+    ]
+  },
+	"Unlocks": [
+	]
+}

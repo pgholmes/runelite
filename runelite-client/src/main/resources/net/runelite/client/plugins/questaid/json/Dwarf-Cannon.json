@@ -1,0 +1,45 @@
+{
+  "name": "Dwarf Cannon",
+	"startLocation": "Captain Lawgof, northwest of Fishing Guild",
+  "Requirements": {
+    "Points": "0",
+    "RequiredSkills": [
+    ],
+    "Quests": [
+    ],
+		"Coins": "",
+    "Items": [
+      {
+        "Id": "",
+        "Name": "Hammer",
+        "Quantity": "1",
+        "QuestObtainable": "1"
+      }
+    ]
+  },
+  "Rewards": {
+    "Points": "1",
+    "RewardSkills": [
+      {
+        "Skill": "Crafting",
+        "Experience": "750"
+      }
+    ],
+    "Coins": "",
+		"Items": [
+		],
+    "Misc": [
+      {
+        "Description": "Ability to buy and use a dwarf multicannon"
+      },
+			{
+        "Description": "Ability to make cannonballs"
+      }
+    ]
+  },
+	"Unlocks": [
+		{
+			"Description": "Between a Rock..."
+		}
+	]
+}

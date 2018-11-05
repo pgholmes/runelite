@@ -1,0 +1,66 @@
+{
+  "name": "Druidic Ritual",
+	"startLocation": "Kaqemeex, Stone circle north of Taverley",
+  "Requirements": {
+    "Points": "0",
+    "RequiredSkills": [
+    ],
+		"Coins": "",
+    "Items": [
+      {
+        "Id": "",
+        "Name": "Raw bear meet",
+        "Quantity": "1",
+        "QuestObtainable": "1"
+      },
+			{
+        "Id": "",
+        "Name": "Raw rat meat",
+        "Quantity": "1",
+        "QuestObtainable": "1"
+      },
+			{
+        "Id": "",
+        "Name": "Raw beef",
+        "Quantity": "1",
+        "QuestObtainable": "1"
+      },{
+        "Id": "",
+        "Name": "Raw chicken",
+        "Quantity": "1",
+        "QuestObtainable": "1"
+      }
+    ]
+  },
+  "Rewards": {
+    "Points": "4",
+    "RewardSkills": [
+      {
+        "Skill": "Herblore",
+        "Experience": "250"
+      }
+    ],
+    "Coins": "",
+		"Items": [
+		],
+    "Misc": [
+      {
+        "Description": "Access to Herblore skill"
+      }
+    ]
+  },
+	"Unlocks": [
+		{
+			"Description": "The Dig Site"
+		},
+		{
+			"Description": "Jungle Potion"
+		},
+		{
+			"Description": "Recruitment Drive"
+		},
+		{
+			"Description": "Eadgar's Ruse"
+		}
+	]
+}

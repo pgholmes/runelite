@@ -1,0 +1,107 @@
+{
+  "name": "Eadgar's Ruse",
+	"startLocation": "Sanfew, Taverley",
+  "Requirements": {
+    "Points": "0",
+    "RequiredSkills": [
+      {
+        "Skill": "Herblore",
+        "Level": "31",
+        "Boostable": "1"
+      }
+    ],
+    "Quests": [
+      {
+        "Name": "Druidic Ritual"
+      },
+			{
+        "Name": "Troll Stronghold"
+      }
+    ],
+		"Coins": "12",
+    "Items": [
+      {
+        "Id": "",
+        "Name": "Climbing boots",
+        "Quantity": "1",
+        "QuestObtainable": "1"
+      },
+			{
+        "Id": "",
+        "Name": "Vodka",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Pineapple chunks",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Logs",
+        "Quantity": "2",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Grain",
+        "Quantity": "10",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Raw chicken",
+        "Quantity": "5",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Tinderbox",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Pestle and Mortar",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Ranarr potion (unf)",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      }
+    ]
+  },
+  "Rewards": {
+    "Points": "1",
+    "RewardSkills": [
+      {
+        "Skill": "Herblore",
+        "Experience": "11000"
+      }
+    ],
+    "Coins": "",
+		"Items": [
+		],
+    "Misc": [
+      {
+        "Description": "Trollheim Teleport"
+      }
+    ]
+  },
+	"Unlocks": [
+		{
+			"Description": "My Arm's Big Adventure"
+		},
+		{
+			"Description": "Dream Mentor"
+		},
+		{
+			"Description": "Dragon Slayer II"
+		}
+	]
+}

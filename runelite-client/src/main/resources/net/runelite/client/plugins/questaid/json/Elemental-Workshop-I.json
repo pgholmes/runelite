@@ -1,0 +1,100 @@
+{
+  "name": "Elemental Workshop I",
+	"startLocation": "Seers' Village, house southwest of bank",
+  "Requirements": {
+    "Points": "0",
+    "RequiredSkills": [
+      {
+        "Skill": "Mining",
+        "Level": "30",
+        "Boostable": "0"
+      },
+			      {
+        "Skill": "Smithing",
+        "Level": "20",
+        "Boostable": "0"
+      },
+			      {
+        "Skill": "Crafting",
+        "Level": "66",
+        "Boostable": "20"
+      }
+    ],
+    "Quests": [
+      {
+        "Name": "Garden of Tranquility"
+      }
+    ],
+		"Coins": "",
+    "Items": [
+      {
+        "Id": "",
+        "Name": "Knife",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "1267",
+        "Name": "Any Pickaxe",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Needle",
+        "Quantity": "1",
+        "QuestObtainable": "1"
+      },
+			{
+        "Id": "",
+        "Name": "Thread",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Leather",
+        "Quantity": "1",
+        "QuestObtainable": "1"
+      },
+			{
+        "Id": "",
+        "Name": "Hammer",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Coal",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      }
+    ]
+  },
+  "Rewards": {
+    "Points": "1",
+    "RewardSkills": [
+      {
+        "Skill": "Crafting",
+        "Experience": "5000"
+      },
+			{
+        "Skill": "Smithing",
+        "Experience": "5000"
+      }
+    ],
+    "Coins": "",
+		"Items": [
+		],
+    "Misc": [
+      {
+        "Description": "Ability to make elemental shields"
+      }
+    ]
+  },
+	"Unlocks": [
+		{
+			"Description": "Elemental Workshop II"
+		}
+	]
+}
