@@ -1,0 +1,147 @@
+{
+  "name": "Cold War",
+	"startLocation": "The Piscatoris Fishing Colony",
+  "Requirements": {
+    "Points": "0",
+    "RequiredSkills": [
+      {
+        "Skill": "Hunter",
+        "Level": "10",
+        "Boostable": "0"
+      },
+			{
+        "Skill": "Agility",
+        "Level": "30",
+        "Boostable": "0"
+      },
+			{
+        "Skill": "Crafting",
+        "Level": "30",
+        "Boostable": "0"
+      },
+			{
+        "Skill": "Construction",
+        "Level": "34",
+        "Boostable": "0"
+      },
+			{
+        "Skill": "Thieving",
+        "Level": "15",
+        "Boostable": "0"
+      }
+    ],
+    "Quests": [
+    ],
+		"Coins": "",
+    "Items": [
+      {
+        "Id": "",
+        "Name": "Oak Plank",
+        "Quantity": "10",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Steel Nails",
+        "Quantity": "10",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Hammer",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Spade",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Plank",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Silk",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Clockwork",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Swamp tar",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Feather",
+        "Quantity": "5",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Mahogany Plank",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Leather",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "raw cod",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      }
+    ]
+  },
+  "Rewards": {
+    "Points": "1",
+    "RewardSkills": [
+      {
+        "Skill": "Crafting",
+        "Experience": "2000"
+      },
+			{
+        "Skill": "Agility",
+        "Experience": "5000"
+      },
+			{
+        "Skill": "Construction",
+        "Experience": "1500"
+      },
+    ],
+    "Coins": "",
+		"Items": [
+		],
+    "Misc": [
+      {
+        "Description": "Can build a penguin suit"
+      },
+			{
+        "Description": "Can steal cowbells"
+      },
+			{
+        "Description": "Can make bongos"
+      }
+    ]
+  },
+	"Unlocks": [
+		{
+			"Description": "Making Friends with My Arm"
+		}
+	]
+}

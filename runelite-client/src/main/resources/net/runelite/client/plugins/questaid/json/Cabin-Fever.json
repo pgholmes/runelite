@@ -1,0 +1,87 @@
+{
+  "name": "Cabin Fever",
+	"startLocation": "Bill Teach, Port Phasmatys Inn",
+  "Requirements": {
+    "Points": "0",
+    "RequiredSkills": [
+      {
+        "Skill": "Agility",
+        "Level": "42",
+        "Boostable": "0"
+      },
+			{
+        "Skill": "Crafting",
+        "Level": "45",
+        "Boostable": "0"
+      },
+			{
+        "Skill": "Smithing",
+        "Level": "50",
+        "Boostable": "0"
+      },
+			{
+        "Skill": "Ranged",
+        "Level": "40",
+        "Boostable": "0"
+      }
+    ],
+    "Quests": [
+      {
+        "Name": "Pirate's Treasure"
+      },
+			{
+        "Name": "Rum Deal"
+      }
+    ],
+		"Coins": "",
+    "Items": [
+      {
+        "Id": "",
+        "Name": "Brown Apron",
+        "Quantity": "1",
+        "QuestObtainable": "1"
+      }
+    ]
+  },
+  "Rewards": {
+    "Points": "2",
+    "RewardSkills": [
+      {
+        "Skill": "Crafting",
+        "Experience": "7000"
+      },
+			{
+        "Skill": "Smithing",
+        "Experience": "7000"
+      },
+			{
+        "Skill": "Agility",
+        "Experience": "7000"
+      }
+    ],
+    "Coins": "",
+		],
+    "Misc": [
+			{
+        "Description": "Upon completion, talk to Bill Teach for 10000 coins"
+      },
+      {
+        "Description": "Access to Mos Le'Harmless"
+      },
+			{
+        "Description": "Access to kill cave horrors"
+      },
+			{
+        "Description": "The Book o'piracy"
+      },
+			{
+        "Description": "Charter ship prices are halved"
+      }
+    ]
+  },
+	"Unlocks": [
+		{
+			"Description": "The Great Brain Robbery"
+		}
+	]
+}

@@ -1,0 +1,102 @@
+{
+  "name": "Darkness of Hallowvale",
+	"startLocation": "Veliaf, basement of pub in Burgh de Rott",
+  "Requirements": {
+    "Points": "0",
+    "RequiredSkills": [
+      {
+        "Skill": "Construction",
+        "Level": "5",
+        "Boostable": "0"
+      },
+			{
+        "Skill": "Mining",
+        "Level": "20",
+        "Boostable": "0"
+      },
+			{
+        "Skill": "Thieving",
+        "Level": "22",
+        "Boostable": "0"
+      },
+			{
+        "Skill": "Agility",
+        "Level": "26",
+        "Boostable": "0"
+      },
+			{
+        "Skill": "Crafting",
+        "Level": "32",
+        "Boostable": "0"
+      },
+			{
+        "Skill": "Magic",
+        "Level": "33",
+        "Boostable": "0"
+      },
+			{
+        "Skill": "Strength",
+        "Level": "40",
+        "Boostable": "0"
+      }
+    ],
+    "Quests": [
+      {
+        "Name": "In Aid of the Myreque"
+      }
+    ],
+		"Coins": "",
+    "Items": [
+      {
+        "Id": "4820",
+        "Name": "Any Nails",
+        "Quantity": "8",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Plank",
+        "Quantity": "2",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Hammer",
+        "Quantity": "1",
+        "QuestObtainable": "1"
+      }
+    ]
+  },
+  "Rewards": {
+    "Points": "2",
+    "RewardSkills": [
+      {
+        "Skill": "Agility",
+        "Experience": "7000"
+      },
+			{
+        "Skill": "Thieving",
+        "Experience": "6000"
+      },
+			{
+        "Skill": "Construction",
+        "Experience": "2000"
+      }
+    ],
+    "Coins": "",
+		"Items": [
+			{
+				"Id": "9656",
+        "Name": "Tome of Experience",
+        "Quantity": "1"
+			}
+		],
+    "Misc": [
+    ]
+  },
+	"Unlocks": [
+		{
+			"Description": "A Taste of Hope"
+		}
+	]
+}

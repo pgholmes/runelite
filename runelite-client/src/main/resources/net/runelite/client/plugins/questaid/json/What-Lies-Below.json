@@ -1,0 +1,79 @@
+{
+  "name": "What Lies Below",
+  "startLocation": "Talk to Rat Burgiss south of Varrock.",
+  "Requirements": {
+    "Points": "0",
+    "RequiredSkills": [
+      {
+        "Skill": "Runecraft",
+        "Level": "35",
+        "Boostable": "0"
+      },
+      {
+        "Skill": "Mining",
+        "Level": "42",
+        "Boostable": "1"
+      }
+    ],
+    "Quests": [
+      {
+        "Name": "Rune Mysteries"
+      }
+    ],
+		"Coins": "",
+    "Items": [
+      {
+        "Id": "",
+        "Name": "Bowl",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      },
+      {
+        "Id": "",
+        "Name": "Bronze Pickaxe",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      },
+      {
+        "Id": "",
+        "Name": "Chaos Rune",
+        "Quantity": "15",
+        "QuestObtainable": "0"
+      },
+      {
+        "Id": "",
+        "Name": "Chaos Talisman",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      }
+    ]
+  },
+  "Rewards": {
+    "Points": "1",
+    "RewardSkills": [
+      {
+        "Skill": "Runecraft",
+        "Experience": "8,000"
+      },
+      {
+        "Skill": "Defence",
+        "Experience": "2,000"
+      }
+    ],
+    "Coins": "",
+    "Items": [],
+      "Misc": 
+      [
+        {
+          "Description": "The Beacon ring"
+        },
+        {
+          "Description": "Access to a shortcut to the chaos altar"
+        },
+        {
+          "Description": "Access to battlestaves in Zaff's Superior Staffs!"
+        }
+      ]
+  },
+  "Unlocks": []
+}

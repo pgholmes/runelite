@@ -1,0 +1,38 @@
+{
+  "name": "Clock Tower",
+	"startLocation": "Brother Kojo, Clock Tower south of East Ardougne",
+  "Requirements": {
+    "Points": "100",
+    "RequiredSkills": [
+    ],
+    "Quests": [
+    ],
+		"Coins": "",
+    "Items": [
+      {
+        "Id": "",
+        "Name": "Rat Poison",
+        "Quantity": "1",
+        "QuestObtainable": "1"
+      },
+			{
+        "Id": "",
+        "Name": "Bucket of water",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      }
+    ]
+  },
+  "Rewards": {
+    "Points": "1",
+    "RewardSkills": [
+    ],
+    "Coins": "500",
+		"Items": [
+		],
+    "Misc": [
+    ]
+  },
+	"Unlocks": [
+	]
+}

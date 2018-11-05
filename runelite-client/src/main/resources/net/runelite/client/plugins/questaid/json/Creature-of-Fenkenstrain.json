@@ -1,0 +1,99 @@
+{
+  "name": "Creature of Fenkenstrain",
+	"startLocation": "Sign in middle of Canifis",
+  "Requirements": {
+    "Points": "",
+    "RequiredSkills": [
+      {
+        "Skill": "Crafting",
+        "Level": "20",
+        "Boostable": "0"
+      },
+			{
+        "Skill": "Thieving",
+        "Level": "25",
+        "Boostable": "0"
+      }
+    ],
+    "Quests": [
+      {
+        "Name": "Priest in Peril"
+      },
+			{
+        "Name": "The Restless Ghost"
+      }
+    ],
+		"Coins": "100",
+    "Items": [
+      {
+        "Id": "",
+        "Name": "Hammer",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Ghostspeak amulet",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Silver bar",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Bronze wire",
+        "Quantity": "3",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Needle",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Thread",
+        "Quantity": "5",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Spade",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      }
+    ]
+  },
+  "Rewards": {
+    "Points": "2",
+    "RewardSkills": [
+      {
+        "Skill": "Thieving",
+        "Experience": "1000"
+      }
+    ],
+    "Coins": "",
+		"Items": [
+			{
+				"Id": "",
+        "Name": "Ring of charos",
+        "Quantity": "1"
+			}
+		],
+    "Misc": [
+    ]
+  },
+	"Unlocks": [
+		{
+			"Description": "Garden of Tranquility"
+		},
+		{
+			"Description": "The Great Brain Robbery"
+		}
+	]
+}

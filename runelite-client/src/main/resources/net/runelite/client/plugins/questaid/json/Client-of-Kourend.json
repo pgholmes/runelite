@@ -1,0 +1,55 @@
+{
+  "name": "Client of Kourend",
+	"startLocation": "Veos, Piscarilius House port",
+  "Requirements": {
+    "Points": "0",
+    "RequiredSkills": [
+    ],
+    "Quests": [
+    ],
+		"Coins": "",
+    "Items": [
+      {
+        "Id": "",
+        "Name": "Feather",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      }
+    ]
+  },
+  "Rewards": {
+    "Points": "1",
+    "RewardSkills": [
+    ],
+    "Coins": "",
+		"Items": [
+			{
+				"Id": "",
+        "Name": "Antique lamp",
+        "Quantity": "2"
+			}
+		],
+    "Misc": [
+      {
+        "Description": "A Favour Certificate"
+      },
+			{
+        "Description": "Kharedst's memoirs"
+      }
+    ]
+  },
+	"Unlocks": [
+		{
+			"Description": "Dragon Slayer II"
+		},
+		{
+			"Description": "The Queen of Thieves"
+		},
+		{
+			"Description": "The Depths of Despair"
+		},
+		{
+			"Description": "Talk of the Righteous"
+		}
+	]
+}

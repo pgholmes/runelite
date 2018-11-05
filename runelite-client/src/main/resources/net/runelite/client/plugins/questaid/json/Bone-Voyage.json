@@ -1,0 +1,47 @@
+{
+  "name": "SBone Voyage",
+	"startLocation": "The Piscatoris Fishing Colony",
+  "Requirements": {
+    "Points": "0",
+    "RequiredSkills": [
+    ],
+    "Quests": [
+      {
+        "Name": "The Dig Site"
+      }
+    ],
+		"Coins": "",
+    "Items": [
+      {
+        "Id": "",
+        "Name": "Vodka",
+        "Quantity": "2",
+        "QuestObtainable": "0"
+      },
+			{
+        "Id": "",
+        "Name": "Marrentill potion (unf)",
+        "Quantity": "1",
+        "QuestObtainable": "0"
+      }
+    ]
+  },
+  "Rewards": {
+    "Points": "1",
+    "RewardSkills": [
+    ],
+    "Coins": "",
+		"Items": [
+		],
+    "Misc": [
+      {
+        "Description": "Access to the Foss Island"
+      }
+    ]
+  },
+	"Unlocks": [
+		{
+			"Description": "Dragon Slayer II"
+		}
+	]
+}

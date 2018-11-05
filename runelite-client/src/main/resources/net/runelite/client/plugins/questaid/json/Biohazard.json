@@ -1,0 +1,55 @@
+{
+  "name": "Biohazard",
+	"startLocation": "Elena, East Ardougne",
+  "Requirements": {
+    "Points": "0",
+    "RequiredSkills": [
+    ],
+    "Quests": [
+      {
+        "Name": "Plague City"
+      }
+    ],
+		"Coins": "",
+    "Items": [
+      {
+        "Id": "",
+        "Name": "Brown Apron",
+        "Quantity": "1",
+        "QuestObtainable": "1"
+      }
+    ]
+  },
+  "Rewards": {
+    "Points": "3",
+    "RewardSkills": [
+      {
+        "Skill": "Thieving",
+        "Experience": "1250"
+      }
+    ],
+    "Coins": "",
+		"Items": [
+
+		],
+    "Misc": [
+      {
+        "Description": "Use of Combat Training Camp"
+      },
+			{
+        "Description": "West Ardougne gate access"
+      },
+			{
+        "Description": "West ardougne Teleport in Arceuus spellbook"
+      }
+    ]
+  },
+	"Unlocks": [
+		{
+			"Description": "Recipe for Disaster"
+		},
+		{
+			"Description": "Underground Pass"
+		}
+	]
+}

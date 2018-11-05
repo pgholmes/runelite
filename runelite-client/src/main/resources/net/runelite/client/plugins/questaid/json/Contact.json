@@ -1,0 +1,64 @@
+{
+  "name": "Contact!",
+	"startLocation": "The Piscatoris Fishing Colony",
+  "Requirements": {
+    "Points": "",
+    "RequiredSkills": [
+    ],
+    "Quests": [
+      {
+        "Name": "Prince Ali Rescue"
+      },
+			{
+        "Name": "Icthlarin's Little Helper"
+      }
+    ],
+		"Coins": "",
+    "Items": [
+      {
+        "Id": "33",
+        "Name": "Any light source",
+        "Quantity": "1",
+        "QuestObtainable": "1"
+      }
+    ]
+  },
+  "Rewards": {
+    "Points": "1",
+    "RewardSkills": [
+      {
+        "Skill": "Thieving",
+        "Experience": "7000"
+      }
+    ],
+    "Coins": "",
+		"Items": [
+			{
+				"Id": "",
+        "Name": "Combat Lamp",
+        "Quantity": "2"
+			},
+						{
+				"Id": "",
+        "Name": "Keris",
+        "Quantity": "1"
+			}
+		],
+    "Misc": [
+      {
+        "Description": "Access to the Sophanem's bank"
+      }
+    ]
+  },
+	"Unlocks": [
+		{
+			"Description": "Icthlarin's Little Helper"
+		},
+		{
+			"Description": "Sophanem"
+		},
+		{
+			"Description": "Sophanem Dungeon"
+		}
+	]
+}
