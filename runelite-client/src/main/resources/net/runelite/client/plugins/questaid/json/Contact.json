@@ -2,7 +2,7 @@
   "name": "Contact!",
 	"startLocation": "The Piscatoris Fishing Colony",
   "Requirements": {
-    "Points": "",
+    "Points": "0",
     "RequiredSkills": [
     ],
     "Quests": [
