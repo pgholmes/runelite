@@ -48,7 +48,8 @@ public class QuestAidPanel extends PluginPanel
     private final QuestManager questManager = new QuestManager();
     private final UIBuilder uiBuilder = new UIBuilder();
 
-    private final IconTextField searchBar;
+    private final IconTextField syncSearchBar;
+    private final IconTextField questSearchBar;
     private final MaterialTabGroup tabGroup;
     private final JPanel questListContainer = new JPanel();
     private JPanel questContainer = new JPanel();
@@ -79,9 +80,9 @@ public class QuestAidPanel extends PluginPanel
         add(uiBuilder.buildUISync(FontManager.getRunescapeSmallFont()), c);
         c.gridy++;
 
-        searchBar = uiBuilder.buildSearchBar(IconTextField.Icon.SEARCH);
-        searchBar.addActionListener(e -> getPlayerData(searchBar.getText()));
-        add(searchBar, c);
+        syncSearchBar = uiBuilder.buildSearchBar(IconTextField.Icon.SEARCH);
+        syncSearchBar.addActionListener(e -> getPlayerData(syncSearchBar.getText()));
+        add(syncSearchBar, c);
         c.gridy++;
 
         tabGroup = uiBuilder.buildMaterialTabGroup();
@@ -120,6 +121,7 @@ public class QuestAidPanel extends PluginPanel
                     case(UISort.ASCENDING):
                         freeQuests.sort(Comparator.comparing(UIQuestEntry::getQuestName));
                         memberQuests.sort(Comparator.comparing(UIQuestEntry::getQuestName));
+
                         break;
                     case(UISort.DESCENDING):
                         freeQuests.sort(Collections.reverseOrder(Comparator.comparing(UIQuestEntry::getQuestName)));
@@ -132,6 +134,11 @@ public class QuestAidPanel extends PluginPanel
         });
 
         add(uiSort, c);
+        c.gridy++;
+
+        questSearchBar = uiBuilder.buildSearchBar(IconTextField.Icon.SEARCH);
+        questSearchBar.addKeyListener(e -> filterQuestList(activeTab, questSearchBar.getText()));
+        add(questSearchBar, c);
         c.gridy++;
 
         questListContainer.setLayout(new GridLayout(0, 1, 0, 1));
@@ -190,11 +197,11 @@ public class QuestAidPanel extends PluginPanel
     public void onActivate()
     {
         super.onActivate();
-        searchBar.requestFocusInWindow();
+        syncSearchBar.requestFocusInWindow();
 
-        if (searchBar.getText().isEmpty() && !getLoggedInPlayer().isEmpty())
+        if (syncSearchBar.getText().isEmpty() && !getLoggedInPlayer().isEmpty())
         {
-            searchBar.setText(getLoggedInPlayer());
+            syncSearchBar.setText(getLoggedInPlayer());
             getPlayerData(getLoggedInPlayer());
         }
     }
@@ -216,6 +223,7 @@ public class QuestAidPanel extends PluginPanel
         return "";
     }
 
+    // need to refactor away from hiscore
     private HiscoreResult lookupPlayer(String name)
     {
         if (!name.isEmpty())
@@ -263,6 +271,11 @@ public class QuestAidPanel extends PluginPanel
             questListContainer.add(row);
         }
 
+        if(!questSearchBar.getText().isEmpty())
+        {
+            filterQuestList(activeTab, questSearchBar.getText());
+        }
+
         drawUI(true);
 
         questListContainer.revalidate();
@@ -274,43 +287,72 @@ public class QuestAidPanel extends PluginPanel
         String trimmedName = name.trim();
         if (trimmedName.length() > MAX_USERNAME_LENGTH)
         {
-            searchBar.setIcon(IconTextField.Icon.ERROR);
+            syncSearchBar.setIcon(IconTextField.Icon.ERROR);
             return;
         }
         else if(trimmedName.isEmpty())
         {
             if (!getLoggedInPlayer().isEmpty())
             {
-                searchBar.setText(getLoggedInPlayer());
+                syncSearchBar.setText(getLoggedInPlayer());
                 trimmedName = getLoggedInPlayer().trim();
             }
             else {
                 loading = false;
-                searchBar.setEditable(true);
+                syncSearchBar.setEditable(true);
                 return;
             }
         }
 
         loading = true;
-        searchBar.setEditable(false);
+        syncSearchBar.setEditable(false);
 
         playerSkills = lookupPlayer(trimmedName);
         if (playerSkills != null)
         {
-            searchBar.setEditable(true);
-            searchBar.setIcon(IconTextField.Icon.SEARCH);
+            syncSearchBar.setEditable(true);
+            syncSearchBar.setIcon(IconTextField.Icon.SEARCH);
             loading = false;
             tabGroup.select(tabGroup.getTab(0));
             return;
         }
 
-        searchBar.setEditable(true);
+        syncSearchBar.setEditable(true);
         if (!trimmedName.isEmpty())
         {
-            searchBar.setIcon(IconTextField.Icon.ERROR);
+            syncSearchBar.setIcon(IconTextField.Icon.ERROR);
         }
 
         loading = false;
+    }
+
+    private void filterQuestList(QuestOptions activeTab, String filterText)
+    {
+        log.debug("in");
+        ArrayList<UIQuestEntry> toFilterAgainst = activeTab == QuestOptions.FREE ? freeQuests : memberQuests;
+
+        for (UIQuestEntry entry : toFilterAgainst)
+        {
+            log.debug("checking quest: " + entry.getQuestName());
+            if(questContainsText(entry, filterText))
+            {
+                log.debug("quest contains");
+                questListContainer.add(entry);
+            }
+            else
+            {
+                log.debug("quest doesn't contain");
+                questListContainer.remove(entry);
+            }
+        }
+
+        questListContainer.revalidate();
+        questListContainer.repaint();
+    }
+
+    private boolean questContainsText(UIQuestEntry quest, String text)
+    {
+        return quest.getQuestName().toLowerCase().contains(text.toLowerCase());
     }
 
     private void drawUI(Boolean draw)

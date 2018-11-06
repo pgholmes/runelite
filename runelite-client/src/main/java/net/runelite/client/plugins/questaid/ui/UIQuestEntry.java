@@ -3,6 +3,7 @@ package net.runelite.client.plugins.questaid.ui;
 import lombok.AccessLevel;
 import lombok.Getter;
 import net.runelite.client.ui.ColorScheme;
+import net.runelite.client.ui.PluginPanel;
 import net.runelite.client.ui.components.shadowlabel.JShadowedLabel;
 import net.runelite.client.util.ImageUtil;
 
@@ -33,6 +34,9 @@ public class UIQuestEntry extends JPanel
 
         setBackground(ColorScheme.DARKER_GRAY_COLOR);
         setBorder(new EmptyBorder(0, 5, 0, 0));
+        setPreferredSize(new Dimension(PluginPanel.WIDTH - 20, 20));
+        setMinimumSize(new Dimension(PluginPanel.WIDTH - 20, 20));
+        setMaximumSize(new Dimension(PluginPanel.WIDTH - 20, 20));
 
         MouseListener hoverListener = new MouseAdapter()
         {
