@@ -141,7 +141,7 @@ public class QuestAidPanel extends PluginPanel
         add(questSearchBar, c);
         c.gridy++;
 
-        questListContainer.setLayout(new GridLayout(0, 1, 0, 1));
+        questListContainer.setLayout(new BoxLayout(questListContainer, BoxLayout.Y_AXIS));
         questListContainer.setAutoscrolls(true);
 
         JScrollPane questListScrollFrame = new JScrollPane(questListContainer);
@@ -346,7 +346,7 @@ public class QuestAidPanel extends PluginPanel
             }
         }
 
-        questListContainer.revalidate();
+        questListContainer.validate();
         questListContainer.repaint();
     }
 

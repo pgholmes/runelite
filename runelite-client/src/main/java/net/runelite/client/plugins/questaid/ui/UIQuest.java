@@ -54,7 +54,6 @@ public class UIQuest extends JPanel
         gridBag.gridy++;
 
         containerPanel.setLayout(new BoxLayout(containerPanel, BoxLayout.Y_AXIS));
-        //containerPanel.setBorder(new EmptyBorder(0,0,0,0));
         containerPanel.setAutoscrolls(true);
 
         scrollPane = new JScrollPane(containerPanel);

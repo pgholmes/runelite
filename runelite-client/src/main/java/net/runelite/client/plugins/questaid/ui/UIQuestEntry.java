@@ -34,9 +34,7 @@ public class UIQuestEntry extends JPanel
 
         setBackground(ColorScheme.DARKER_GRAY_COLOR);
         setBorder(new EmptyBorder(0, 5, 0, 0));
-        setPreferredSize(new Dimension(PluginPanel.WIDTH - 20, 20));
-        setMinimumSize(new Dimension(PluginPanel.WIDTH - 20, 20));
-        setMaximumSize(new Dimension(PluginPanel.WIDTH - 20, 20));
+        setPreferredSize(new Dimension(PluginPanel.PANEL_WIDTH, 30));
 
         MouseListener hoverListener = new MouseAdapter()
         {
@@ -70,13 +68,11 @@ public class UIQuestEntry extends JPanel
 
     }
 
-
     public void setQuestSelected(boolean selected)
     {
         isSelected = selected;
         this.updateBackground();
     }
-
 
     private void updateBackground()
     {
